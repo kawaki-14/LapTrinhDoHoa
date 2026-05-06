@@ -2042,6 +2042,24 @@ MonoBehaviour:
   fogType:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-309988941736634611
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7ff42a8c5be6646ad3975f3a54c1eb, type: 3}
+  m_Name: DiffusionProfileList
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.DiffusionProfileList
+  active: 1
+  diffusionProfiles:
+    m_OverrideState: 1
+    m_Value:
+    - {fileID: 11400000, guid: 404820c4cf36ad944862fa59c56064f0, type: 2}
+    - {fileID: 11400000, guid: 2384dbf2c1c420f45a792fbc315fbfb1, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2055,50 +2073,19 @@ MonoBehaviour:
   m_Name: DefaultSettingsVolumeProfile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 1002502395046882024}
-  - {fileID: 2952394347038978384}
-  - {fileID: -1419720997802915526}
-  - {fileID: -7228820639771979951}
-  - {fileID: -3551990588716370889}
-  - {fileID: 1259249596851485214}
-  - {fileID: -7686800921408060865}
-  - {fileID: -6813873456776275465}
-  - {fileID: -391593305365364671}
-  - {fileID: 8112381964648251790}
-  - {fileID: 2642802744537481230}
-  - {fileID: -3955027486946176995}
-  - {fileID: 6345042826660291024}
-  - {fileID: -3722135288719606425}
-  - {fileID: -8578042116228531202}
-  - {fileID: -3297501772196869208}
-  - {fileID: 6894895877864753278}
-  - {fileID: -4692193363831689393}
-  - {fileID: 3862061681129918951}
-  - {fileID: 7477599791012123021}
-  - {fileID: 2658268692093036134}
-  - {fileID: -677485649507515666}
-  - {fileID: 6803311517619941666}
-  - {fileID: -6590493612000477662}
-  - {fileID: 3537226421751204658}
-  - {fileID: 6724847619148171412}
-  - {fileID: -1947763550736176913}
-  - {fileID: -2509611549638790266}
-  - {fileID: 4468318420215495738}
-  - {fileID: 3195695067923148343}
-  - {fileID: -3123549836230700204}
-  - {fileID: 6647931419942747520}
-  - {fileID: 8901098902872984900}
-  - {fileID: -2423169833593963948}
-  - {fileID: 470847868188987123}
-  - {fileID: 2071213255792927440}
-  - {fileID: -8070702432779661969}
-  - {fileID: 2339674778611562377}
-  - {fileID: -4538385942869133680}
-  - {fileID: -7375102412153183520}
-  - {fileID: -2366500034782630002}
-  - {fileID: 8434185858943537358}
-  - {fileID: -4765469340270642483}
-  - {fileID: 6136963378226085232}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -309988941736634611}
 --- !u!114 &301035701171699891
 MonoBehaviour:
   m_ObjectHideFlags: 3
